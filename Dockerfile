@@ -1,5 +1,7 @@
 ARG BASE_IMAGE=ubuntu:22.04
 
+FROM ${BASE_IMAGE} as DVWA
+
 LABEL maintainer "opsxcq@strm.sh"
 
 RUN apt-get update && \
