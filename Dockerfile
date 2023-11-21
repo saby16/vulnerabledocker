@@ -1,4 +1,3 @@
-//FROM debian:9.2
 ARG BASE_IMAGE=ubuntu:22.04
 
 LABEL maintainer "opsxcq@strm.sh"
